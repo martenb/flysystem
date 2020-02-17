@@ -42,11 +42,12 @@ class FtpFactory
 			'username' => $parameters->username,
 			'password' => $parameters->password,
 
-			'port'    => $parameters->port,
-			'root'    => $parameters->root,
-			'passive' => $parameters->passive,
-			'ssl'     => $parameters->ssl,
-			'timeout' => $parameters->timeout,
+			'port'         => $parameters->port,
+			'root'         => $parameters->root,
+			'passive'      => $parameters->passive,
+			'ssl'          => $parameters->ssl,
+			'timeout'      => $parameters->timeout,
+			'transferMode' => $parameters->transferMode,
 		]);
 	}
 }

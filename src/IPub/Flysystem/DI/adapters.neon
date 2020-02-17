@@ -118,6 +118,10 @@ ftp:
 			type		: integer
 			required	: FALSE
 			default		: 30
+		transferMode:
+			type		: integer
+			required	: FALSE
+			default		: ::constant(FTP_BINARY)
 
 gridfs:
 	class	: League\Flysystem\GridFS\GridFSAdapter
